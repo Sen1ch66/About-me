@@ -1,0 +1,90 @@
+*{
+    font-family: 'Sigmar', cursive;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    height: 80px;
+    background-color: rgb(12, 8, 8);
+    color: blue;
+    padding-top: 25px;
+}
+.title nav{
+    position: absolute;
+    left: 900px;
+    top: 40px;
+}
+.a1, .a2, .a3{
+    text-decoration: none;
+    color: rgb(98, 98, 108);
+    padding: 10px;
+    border: 2px solid red;
+    background-color: rgba(234, 227, 227, 0.966);
+    border-radius: 15%;
+}
+header{
+    text-align: center;
+    justify-content: center;
+    background-image: url(/fotki/mainfotka.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.tag{
+    /* background-color: rgb(215, 229, 216); */
+    display: table;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 12px;
+}
+header img{
+    margin-top: 50px;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border: 3px solid rgb(212, 17, 17);
+}
+h1{
+    background-color: rgb(215, 229, 216);
+}
+header h4{
+    margin-top: 10px !important;
+    background-color: rgb(8, 17, 26);
+    color: rgb(22, 198, 60);
+}
+main{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 50px auto;
+    border-radius: 10%;
+}
+.card1{
+    padding: 20px;
+    width: 30%;
+    background-color: rgb(181, 189, 189);
+}
+.card2{
+    padding: 20px 20px 20px 30px;
+    width: 30%;
+    background-color: rgb(181, 189, 189);
+}
+.nav2, .nav2, .nav2{
+    padding: 2px;
+    color: rgb(138, 213, 100);
+    background-color: blue;
+    border: 1px solid rgb(13, 225, 244);
+    border-radius: 20%;
+    text-decoration: none;
+}
+footer a{
+    height: 40px;
+    background-color: black;
+    display: block;
+}
+footer p{
+    background-color: black;
+    color: aqua;
+}
