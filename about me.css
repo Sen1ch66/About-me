@@ -22,6 +22,11 @@
     background-color: rgba(234, 227, 227, 0.966);
     border-radius: 15%;
 }
+.a1:hover, .a2:hover, .a3:hover{
+    background-color: rgb(62, 62, 201);
+    color: rgb(227, 68, 68);
+    border: 5px solid rgb(12, 214, 184);
+}
 header{
     text-align: center;
     justify-content: center;
@@ -32,7 +37,6 @@ header{
     height: 600px;
 }
 .tag{
-    /* background-color: rgb(215, 229, 216); */
     display: table;
     border: 2px solid black;
     border-radius: 15px;
@@ -45,6 +49,11 @@ header img{
     width: 125px;
     border-radius: 50%;
     border: 3px solid rgb(212, 17, 17);
+    transition: all .5s;
+}
+header img:hover{
+    width: 200px;
+    height: 200px;
 }
 h1{
     background-color: rgb(215, 229, 216);
@@ -59,7 +68,7 @@ main{
     flex-flow: row;
     justify-content: space-around;
     margin: 50px auto;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 .card1{
     padding: 20px;
@@ -71,7 +80,7 @@ main{
     width: 30%;
     background-color: rgb(181, 189, 189);
 }
-.nav2, .nav2, .nav2{
+.nav2{
     padding: 2px;
     color: rgb(138, 213, 100);
     background-color: blue;
@@ -79,12 +88,35 @@ main{
     border-radius: 20%;
     text-decoration: none;
 }
-footer a{
-    height: 40px;
-    background-color: black;
-    display: block;
+.nav2:hover{
+    background-color: rgb(234, 37, 37);
+    border: 2px solid black;
+}
+footer{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(102, 192, 102);
+    border: 2px solid rgb(213, 63, 63);
+    height: 70px;
 }
 footer p{
-    background-color: black;
-    color: aqua;
+    font-size: 30px;
+    margin-right: 50px;
+    color: rgb(19, 19, 213);
+    font-style: oblique;
+    
 }
+footer a{
+    padding-left: 5px;
+}
+footer img{
+    width: 48px;
+    height: 48px;
+}
+footer img:hover{
+    width: 60px;
+    height: 60px;
+    border: 2px solid blue;
+}
+
